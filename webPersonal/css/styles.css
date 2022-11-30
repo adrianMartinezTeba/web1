@@ -1,0 +1,153 @@
+/** css de home*/
+body{
+    display: flex;
+    background-color: rgb(127, 187, 213);
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(24, 34, 92);
+    margin: 0px;
+}
+
+.navHome>ul{
+    list-style-type: none;
+    display: inline;
+    display: flex;
+    align-content: center;
+
+}
+.navHome>ul>li>a{
+    
+    color: rgb(161, 222, 239);
+    display: inline;
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+
+}
+header>nav>ul>li:hover {
+    background-color: #159ae1;
+    color: black;
+}
+.areasfavs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    }
+.secfavs{
+    border: 3px white solid;
+    margin: 10px;
+    width: 45%;
+    background-color: rgb(176, 199, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 10px;
+}
+.secfavs>article{
+    margin: 10px;
+
+}
+footer{
+    background-color: rgb(24, 34, 92);
+    color: rgb(161, 222, 239);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.defpag{
+    background-color: rgb(30, 179, 234);
+    display: flex;
+    flex-direction: column;
+}
+.defpag>h1{
+    display: flex;
+    justify-content: center;
+}
+.defpag>p{
+    display: flex;
+    justify-content: center;
+}
+/** css de biografia*/
+#introbio{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.stage{
+    border: 3px white solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(59, 170, 207, 0.696);
+}
+.imgbio{
+
+    display: flex;
+    justify-content: center;
+}
+.imgbio>img{
+    margin: 10px;
+    border: 3px white solid;
+}
+.defstage>h3{
+    display: flex;
+    justify-content: center;
+}
+/** Ahora el portfolio*/
+
+.depprac>h5{
+    text-align: center;
+}
+iframe{
+    border: 3px white solid;
+    display: flex;
+    margin-left: 530px;
+    
+}
+.stage>h2{
+    display: flex;
+    flex-direction: column;
+    border: 3px white solid;
+    border-radius: 100px;
+    text-decoration:underline;width: 300px;
+    justify-content: center;
+    margin-left: 530px;
+    text-align: center;
+}
+.depprac>h2{
+    display: flex;
+    flex-direction: column;
+    border: 3px white solid;
+    border-radius: 100px;
+    text-decoration:underline;width: 300px;
+    justify-content: center;
+    margin-left: 530px;
+    text-align: center;
+}
+#mm{
+    width: 700px;
+    margin-left: 400px;
+}
+.polidomi{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.polidomi>h5{
+    text-align: center;
+}
+audio{
+    margin-left: 550px;
+}
+/** ahora contacto*/
+.form{
+    border: 3px white solid;
+    flex-direction: column;
+}
